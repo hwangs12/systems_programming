@@ -6,3 +6,7 @@
 // memory allocated may be fragmented
 
 // Audience - book assumes minimal understanding of C
+
+// INTRO
+
+// POINTER is a variable that stores the address of a memory location
