@@ -10,3 +10,5 @@
 // INTRO
 
 // POINTER is a variable that stores the address of a memory location
+// :) the concept quickly becomes complicated when we start applying pointer operators
+// and try to discern their cryptic notations (YES!)
