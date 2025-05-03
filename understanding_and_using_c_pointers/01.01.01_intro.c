@@ -12,3 +12,8 @@
 // POINTER is a variable that stores the address of a memory location
 // :) the concept quickly becomes complicated when we start applying pointer operators
 // and try to discern their cryptic notations (YES!)
+
+
+// pointer operators are covered in more depth
+// including pointer arithmetic and pointer comparisons
+// constants and pointers
