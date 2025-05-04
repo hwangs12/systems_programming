@@ -12,3 +12,13 @@ int *pi = 0; // zero refers to the null pointer
 pi = &num;
 *pi = 0; // zero refers to the int zero
 
+// pointer to void
+void *pv;
+    // two interesting properties
+    // a pointer to void have same representation 
+    // memory alignment as a pointer to char
+
+    // a pointer to void will never be 
+    // equal to another pointer. 
+
+    
