@@ -1,0 +1,8 @@
+/**
+ * EMBEDDED FIRMWARE BUILD PROCESS
+ * 
+ * GOAL:
+ *      - EMBEDDED BUILD PROCESS
+ *      - GNU BINARY TOOLS
+ *      - IDE TO CLI
+ */
