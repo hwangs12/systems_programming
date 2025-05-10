@@ -5,4 +5,18 @@
  *      - EMBEDDED BUILD PROCESS
  *      - GNU BINARY TOOLS
  *      - IDE TO CLI
+ * 
+ * BUILD PROCESS
+ *      - INTRICATE AND MULTILAYERED
+ *      1. SOURCE FILES
+ *      2. PREPROCESSOR
+ *      3. PREPROCESSED FILES
+ *      4. COMPILER
+ *      5. ASSEMBLY FILES
+ *      6. ASSEMBLER
+ *      7. OBJECT FILES
+ *      8. LINKER
+ *      9. RELOCATABLE FILE
+ *      10. LOCATOR
+ *      11. EXECUTABLE
  */
