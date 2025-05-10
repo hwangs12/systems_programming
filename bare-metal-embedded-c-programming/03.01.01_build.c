@@ -19,4 +19,11 @@
  *      9. RELOCATABLE FILE
  *      10. LOCATOR
  *      11. EXECUTABLE
+ * 
+ * PREPROCESSING STAGE
+ *      1. COMMENTS REMOVED FROM CODE
+ *      2. REPLACE # TO CODE SEGMENTS
+ *      3. OUTPUT .i FILE
+ * 
+ * 
  */
