@@ -25,5 +25,17 @@
  *      2. REPLACE # TO CODE SEGMENTS
  *      3. OUTPUT .i FILE
  * 
+ * COMPILATION STAGE
+ *      1. PROCESS .i FILES
+ *      2. OUPUT ASSEMBLY CODE FILES (.s)
  * 
+ * ASSEMBLY STAGE
+ *      1. PROCESS .s FILES 
+ *      2. CONVERTS TO MACHINE CODE
+ *      3. OUTPUT .o FILES
+ *      * they contain binary
+ * 
+ * LINKING STAGE
+ *      1. STITCHES ALL .o FILES
+ *      2. GENERATES RELOCATABLE FILE
  */
