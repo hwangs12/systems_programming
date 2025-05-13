@@ -14,4 +14,7 @@
  *      AND USER PROGRAMS
  *      GCC: GNU COMPILER COLLECTION
  *      
+ * COMMAND
+ *      
+ *      `arm-none-eabi-gcc main.c -o main.o`
  */
