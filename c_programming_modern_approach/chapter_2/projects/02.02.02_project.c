@@ -14,7 +14,7 @@ int main(void)
 {   
     printf("%f\n", 4.0f/3.0f);
     printf("%f\n", 4/3);
-    printf("%f\n", 4.0f/3.0f * 1000 * M_PI);
-    printf("%f", 4/3 * 1000 * M_PI);
+    printf("%f\n", 4.0f/3.0f * 1000 * M_PI); // f divided by f gives f.
+    printf("%f", 4/3 * 1000 * M_PI); // 4/3 becomes integer 1
     return 0;
 }
