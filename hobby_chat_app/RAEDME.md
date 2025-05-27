@@ -1,0 +1,1 @@
+# here i just want to understand how the app is made from cli side
