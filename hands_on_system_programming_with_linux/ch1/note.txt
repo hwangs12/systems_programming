@@ -1,0 +1,1 @@
+sort xxx.txt file is equivalent to sort < xxx.txt (output the sorted value of texts from xxx.txt)
