@@ -5,8 +5,8 @@
  * 
  * FINDING ERRORS IN A PROGRAM
  * 
- * error shown was call to undeclared library 
- * function 'printf' with type 'int
+ * format specifies type 'double' 
+ * but the argument has type 'int'
  */
 
 #include <stdio.h>
@@ -14,6 +14,6 @@
 int
 main (void)
 {
-    printf ("Two plus two is %d\n", 4);
+    printf ("Two plus two is %f\n", 4);
     return 0;
 }
