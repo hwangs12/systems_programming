@@ -20,6 +20,9 @@ int main(void)
     printf("Value in scientific notation: %g\n", val);
     val = 1.29383927f;
     printf("Value in scientific notation: %g\n", val);
-    
+    double val1 = 127387181.29383927;
+    printf("Value in scientific notation: %g\n", val1);
+    val = 127387181.29383927f;
+    printf("Value in scientific notation: %g\n", val);
     return 0;
 }
