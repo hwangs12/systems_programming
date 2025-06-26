@@ -25,4 +25,17 @@ int main(void)
     val = 127387181.29383927f;
     printf("Value in scientific notation: %g\n", val);
     return 0;
+
+
+    // awesome example from the book and what is |?
+    int i;
+    float x;
+    
+    i = 40;
+    x = 839.21f;
+
+    printf("|%d|%5d|%-5d|%5.3d|\n", i, i, i, i);
+    printf("|%10.3f|%10.3e|%-10g|\n", x, x, x);
+
+    return 0;
 }
