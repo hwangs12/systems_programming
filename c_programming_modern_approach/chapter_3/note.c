@@ -41,6 +41,14 @@ int main(void)
     // -10g -> 10 space no trailing zeros left align
     // let's stick to that. no doubles here. 
     // in float and int, - is left justified and plus is right justified
-    
+
+
+    // escape sequences
+    // alert \a
+    // backspace \b
+    // new line \n
+    // tab \t
+
+    printf("Item\tUnit\tPurchase\n\tPrice\tDate\n\awowza\t\b\bhehe");
     return 0;
 }
