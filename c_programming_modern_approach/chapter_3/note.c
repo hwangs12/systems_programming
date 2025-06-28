@@ -40,6 +40,7 @@ int main(void)
     // 10.3e -> 10 space use e 3 decimal points, right aligned
     // -10g -> 10 space no trailing zeros left align
     // let's stick to that. no doubles here. 
-
+    // in float and int, - is left justified and plus is right justified
+    
     return 0;
 }
