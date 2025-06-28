@@ -10,8 +10,9 @@ int main(void)
     double value = 12345.678;
     printf("Value in scientific notation: %e\n", value);
     printf("Value in scientific notation: %2.3e\n", value);
+    printf("Value in scientific notation: %-2.3e\n", value);
     printf("Value in scientific notation: %.3e\n", value);
-    printf("Value in scientific notation: %1.-1e\n", value);
+    // printf("Value in scientific notation: %1.-1e\n", value); warning!!! invalid conversion specifier
     
     // using g specifier
     float val = 12345.6783928f;
