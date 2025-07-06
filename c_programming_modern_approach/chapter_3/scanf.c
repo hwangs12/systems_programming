@@ -6,8 +6,8 @@ int main(void) {
     int i, j;
     float x, y;
 
-    scanf("%d%d%f%f", &i, &j, &x, &y);
-    printf("%d   %d     %f   %f", i, j, x, y);
+    // scanf("%d%d%f%f", &i, &j, &x, &y);
+    // printf("%d   %d     %f   %f", i, j, x, y);
 
     // scanf can actually do much more than indicated
 
@@ -28,6 +28,12 @@ int main(void) {
     // if any item is not read successfully, scanf returns immeidately without looking at the rest of the format string
 
     // as it searches for the beginning of a number, scanf ignores white-space chars (space, horizontal and vertical tab, form-feed, and new -line characters).
+
+    // scanf("%d%d%f%f", &i, &j, &x, &y);
+    scanf("%d %d ", &i, &j); // putting space or newline character will hang the program
+    // because it skip to the next non-white-space character.
+
+        
 
     
     return 0;
