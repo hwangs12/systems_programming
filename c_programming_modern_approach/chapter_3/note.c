@@ -4,7 +4,7 @@ int main(void)
 {
     printf("%f %d\n", 3, 3.14);
     printf("%d %1.4f\n", 3, 3.14);
-    printf("%d %f\n", 3, 3.14);
+    printf("%d %2.0f\n", 3, 3.14);
     
     // using e
     double value = 12345.678;

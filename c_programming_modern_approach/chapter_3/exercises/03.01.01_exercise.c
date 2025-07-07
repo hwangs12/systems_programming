@@ -12,7 +12,7 @@ int main(void)
     /**
      *----86,1040
      */
-    printf("%12.5e\n", 30.253); // 12 means number of total chars is 12 including dot and e and + and white space
+    printf("%12.5e\n", 30.253); // 12 means number of total chars is 12 including dot, numbers and e and + and white space
     /**
      * 3.02530e+01
      */
