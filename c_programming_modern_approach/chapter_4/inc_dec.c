@@ -26,5 +26,7 @@ int main(void)
      */
     printf("i is %d\n", j++); //prints 1;
     printf("i is %d\n", j);
+
+    // skipping dec similar idea
 }
 
