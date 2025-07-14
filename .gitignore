@@ -3,3 +3,4 @@
 *.out
 hobby_chat_app/node_modules/
 hobby_chat_app/dist/
+*.dSYM/
