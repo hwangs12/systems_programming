@@ -36,6 +36,10 @@ BOOL flag;
 
 ### Expression Evaluation
 
+### Order of Subexpression Evaluation
 
+we don't know in the expression (a+b)*(c-d) whether (a+b) will be evaluated before (c-d)
+
+see tricky3.c
 
 
