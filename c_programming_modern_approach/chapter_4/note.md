@@ -51,6 +51,12 @@ To raise a number to a nonint power, call pow function
 > I wan tto apply % operator to floating-point operand
 Try the fmod. % requires integer operands. 
 
+> Why are using / and % complicated when it is done with negative operands
+The goal is to ensure value of (a/b) * b + a % b will always be equal to a.
+The problem is there are two ways for a/b and a%b. For example, -9/7 can be -1 or -2 and -9%7 can be -2 and 5. 
+one truncates to zero and another doesn't, but the result here are the same
+-1 * 7 + -2 and -2 * 7 + 5 are equal, -9.
+
 
 
 
