@@ -16,6 +16,13 @@ int main(void)
     b = a + 2;
     a = 1;
     c = b - a;
-    
+
+    // another undefined behavior
+    int i = 2;
+    int j;
+    j = i * i++;
+    // it could be 4 but also could be 6 i++ evaluated first then multiplied by original value of i anything can happen
+
+    // undefined behavior should be avoided like the plague
     return 0;
 }
