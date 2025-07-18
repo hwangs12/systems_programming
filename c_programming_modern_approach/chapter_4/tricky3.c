@@ -24,5 +24,9 @@ int main(void)
     // it could be 4 but also could be 6 i++ evaluated first then multiplied by original value of i anything can happen
 
     // undefined behavior should be avoided like the plague
+
+    // statment with no effect
+    // i + j; no effect on either i or j
+    // i = j; changes value of i to j;
     return 0;
 }
