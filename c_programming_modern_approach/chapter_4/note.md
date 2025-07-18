@@ -42,4 +42,15 @@ we don't know in the expression (a+b)*(c-d) whether (a+b) will be evaluated befo
 
 see tricky3.c
 
+## Q&A
+
+> notice C has no power 
+Raising an integer to small positive integer is best done by repeated multiplication.
+To raise a number to a nonint power, call pow function
+
+> I wan tto apply % operator to floating-point operand
+Try the fmod. % requires integer operands. 
+
+
+
 
