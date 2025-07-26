@@ -25,5 +25,22 @@ int main(void)
     int fifthDigit = num;
 
 
-    printf("In octal, your number is: %d%d%d%d%d", firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit);
+    printf("In octal, your number is: %d%d%d%d%d\n", firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit);
+
+    int decimal;
+
+    printf("Enter a number between 0 and 32767: ");
+    scanf("%d", &decimal);
+
+    fifthDigit = decimal % 8;
+    decimal /= 8;
+    fourthDigit = decimal % 8;
+    decimal /= 8;
+    thirdDigit = decimal % 8;
+    decimal /= 8;
+    secondDigit = decimal % 8;
+    decimal /= 8;
+    firstDigit = decimal;
+
+    printf("In octal, your number is: %d%d%d%d%d\n", firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit);
 }
