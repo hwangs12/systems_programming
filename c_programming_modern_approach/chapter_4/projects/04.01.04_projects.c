@@ -43,4 +43,6 @@ int main(void)
     firstDigit = decimal;
 
     printf("In octal, your number is: %d%d%d%d%d\n", firstDigit, secondDigit, thirdDigit, fourthDigit, fifthDigit);
+
+    /* LOOP IT */
 }
