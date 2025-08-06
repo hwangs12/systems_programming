@@ -3,7 +3,8 @@
  * k = i * j == 6;
  * k is 1
  * 
- * 
+ * i = 5; j = 10; k = 1;
+ * printf("%d", k > i < j);
  */
 
 #include <stdio.h>
@@ -18,4 +19,6 @@ int main(void)
     if (k == 1) {
         printf("k is 1 as expected");
     }
+
+    i = 5; j = 10;
 }
