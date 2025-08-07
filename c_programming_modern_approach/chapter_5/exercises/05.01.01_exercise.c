@@ -20,5 +20,7 @@ int main(void)
         printf("k is 1 as expected");
     }
 
-    i = 5; j = 10;
+    i = 5; j = 10; k = 1;
+    printf("%d", k > i < j); // relation is left associative
+    //
 }
