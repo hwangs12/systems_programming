@@ -17,10 +17,10 @@ int main(void)
     k = i * j == 6; // order of precedence? relational has lower than arithmetic so this
     // this is equal to ((i*j)==6)
     if (k == 1) {
-        printf("k is 1 as expected");
+        printf("k is 1 as expected\n");
     }
 
     i = 5; j = 10; k = 1;
-    printf("%d", k > i < j); // relation is left associative
-    //
+    printf("%d\n", k > i < j); // relation is left associative
+    // k > i is 0 and 0 < 10 is 1
 }
