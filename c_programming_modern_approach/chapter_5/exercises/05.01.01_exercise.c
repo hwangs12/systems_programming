@@ -23,4 +23,8 @@ int main(void)
     i = 5; j = 10; k = 1;
     printf("%d\n", k > i < j); // relation is left associative
     // k > i is 0 and 0 < 10 is 1
+
+    /**
+     * i = 5; j = 0; k = -5;
+     */
 }
