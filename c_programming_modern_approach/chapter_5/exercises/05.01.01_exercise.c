@@ -28,4 +28,7 @@ int main(void)
      * i = 5; j = 0; k = -5;
      * printf("%d", i && j || k);
      */
+
+     i = 5; j = 0; k = -5;
+     printf("%d", i && j || k);
 }
