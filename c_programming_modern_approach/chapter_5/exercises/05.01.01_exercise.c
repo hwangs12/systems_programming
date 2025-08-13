@@ -29,6 +29,9 @@ int main(void)
      * printf("%d", i && j || k);
      * result is 1
      * note ! has same precedence as unary plus and minus
+     * && and || are left associative and lower
+     * than that of the relational and 
+     * equality
      */
 
      i = 5; j = 0; k = -5;
