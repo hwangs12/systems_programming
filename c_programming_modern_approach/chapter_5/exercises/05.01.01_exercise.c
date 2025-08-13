@@ -27,6 +27,8 @@ int main(void)
     /**
      * i = 5; j = 0; k = -5;
      * printf("%d", i && j || k);
+     * result is 1
+     * note ! has same precedence as unary plus and minus
      */
 
      i = 5; j = 0; k = -5;
