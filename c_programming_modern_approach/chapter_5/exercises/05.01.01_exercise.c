@@ -2,7 +2,7 @@
  * i = 2; j = 3;
  * k = i * j == 6;
  * k is 1
- * 
+ *
  * i = 5; j = 10; k = 1;
  * printf("%d", k > i < j);
  */
@@ -16,13 +16,16 @@ int main(void)
     j = 3;
     k = i * j == 6; // order of precedence? relational has lower than arithmetic so this
     // this is equal to ((i*j)==6)
-    if (k == 1) {
+    if (k == 1)
+    {
         printf("k is 1 as expected\n");
     }
 
-    i = 5; j = 10; k = 1;
+    i = 5;
+    j = 10;
+    k = 1;
     printf("%d\n", k > i < j); // relation is left associative
-    // k > i is 0 and 0 < 10 is 1
+                               // k > i is 0 and 0 < 10 is 1
 
     /**
      * i = 5; j = 0; k = -5;
@@ -30,15 +33,23 @@ int main(void)
      * result is 1
      * note ! has same precedence as unary plus and minus
      * && and || are left associative and lower
-     * than that of the relational and 
+     * than that of the relational and
      * equality
      */
 
-     i = 5; j = 0; k = -5;
-     printf("%d\n", i && j || k);
+    i = 5;
+    j = 0;
+    k = -5;
+    printf("%d\n", i && j || k);
 
-     /**
-      * i = 3; j = 2; k = 1;
-      * printf("%d", i < j == j < k);
-      */
+    /**
+     * i = 3; j = 2; k = 1;
+     * printf("%d", i < j == j < k);
+     * result is 1;
+     */
+
+    i = 3;
+    j = 2;
+    k = 1;
+    printf("%d\n", i < j == j < k);
 }
