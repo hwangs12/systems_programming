@@ -52,4 +52,14 @@ int main(void)
     j = 2;
     k = 1;
     printf("%d\n", i < j == j < k);
+
+    /**
+     * i = 3; j = 4; k = 5;
+     * i % j + i < k
+     * => 3 + i = 6 < 5 => 0
+     */
+    i = 3;
+    j = 4;
+    k = 5;
+    printf("%d\n", i % j + i < k);
 }
