@@ -24,5 +24,7 @@ int main(void)
     i = 1; j = 1; k = 1;
     printf("(c) %d \n", ++i || ++j && ++k);
     printf("(c) %d %d %d \n", i, j, k);
-    // 1 and 2, 1, 2
+    // not sure if textbook says but 
+    // && has higher precedence than ||
+    // 1 and 2, 1, 1
 }
