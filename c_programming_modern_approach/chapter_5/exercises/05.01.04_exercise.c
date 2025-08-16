@@ -14,9 +14,5 @@ int main(void)
     // how did someone find
     // this solution
 
-
-
-
-
     return 0;
 }
